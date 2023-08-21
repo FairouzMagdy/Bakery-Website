@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  top: 0;
+  width: 100%;
+}
+
+/* .sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #686868;
+} */
+
+.logo {
+  width: 220px;
+  position: absolute;
+  top: 30px;
+  left: 190px;
+  filter: brightness(0) invert(1); /*To make it white-*/
+}
+
+.nav-list {
+  position: absolute;
+  top: 30px;
+  right: 200px;
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+}
+ul {
+  list-style-type: none;
+}
+.nav-item {
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover {
+  color: #686868;
+}
+
+#intro {
+  color: white;
+  text-align: center;
+
+  position: absolute;
+  top: 270px;
+  left: 525px;
+  font-size: x-large;
+  /* font-family: "Alegreya"; */
+}
+
+p {
+  padding: 20px;
+}
+
+#intro h1 {
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: space-between; */
+  margin: 40px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 20px 30px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid transparent;
+  font-size: medium;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn-contact {
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.btn-learn {
+  background-color: #8e7754;
+}
+
+#who {
+  margin: 120px 190px;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.who-img {
+  width: 710px;
+  height: 650px;
+}
+
+.who-msg {
+  margin: 60px 100px;
+}
+
+.icon-item {
+  /* margin: 20px; */
+  color: #686868;
+}
+
+.icon {
+  color: #8e7754;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(163, 157, 157);
+  font-size: 25px;
+  text-align: center;
+  padding: 6px;
+  margin: 10px;
+}
+
+#who h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+#who p {
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: 100;
+  color: #686868;
+}
+
+.icon-text {
+  font-size: 20px;
+}
+
+#location {
+  background-color: #f8f8f8;
+  padding: 120px 190px;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.loc-msg {
+  padding: 100px 20px;
+}
+#location h1,
+#baking h1,
+#contact h1 {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+#location p,
+#contact p {
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: 100;
+  color: #686868;
+}
+.loc-img {
+  width: 710px;
+  height: 600px;
+}
+
+#baking {
+  padding: 120px 190px;
+}
+
+.baking-txt {
+  text-align: center;
+}
+
+#baking p {
+  line-height: 2rem;
+  font-size: 22px;
+  font-weight: 100;
+  color: #686868;
+}
+
+.img-container {
+  /* margin: 30px 20px; */
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-baking {
+  width: 480px;
+  height: 390px;
+}
+.baking-item {
+  margin: 50px 20px;
+}
+
+h2 {
+  color: #303030;
+  margin-top: 30px;
+}
+
+#contact {
+  background-color: #f8f8f8;
+  padding: 120px 170px;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.icon-contact {
+  background-color: #8e7754;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid rgb(163, 157, 157);
+  font-size: 25px;
+  text-align: center;
+  padding: 6px;
+  margin: 10px;
+}
+
+#about {
+  background-color: #403d38;
+  padding: 120px 190px;
+}
+
+h3 {
+  color: white;
+  position: relative;
+  top: 0px;
+  left: 20px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-item {
+  width: 25%;
+  color: #686868;
+  height: 400px;
+}
+
+.item-list-about {
+  margin: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.icon-about {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.contact-details {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.contact-details span {
+  /* display: inline-block; */
+  /* padding-left: 20px; */
+  background-image: url("images/contact-details-map.png");
+}
+
+#footer {
+  background-color: #353330;
+  text-align: center;
+  color: #686868;
+}
+
+#footer ul {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#footer i {
+  background-color: #484540;
+  color: #8c8a86;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid rgb(163, 157, 157);
+  font-size: 25px;
+  text-align: center;
+  padding: 6px;
+  margin: 5px;
+  border: 1px solid transparent;
+}
+
+#footer img {
+  filter: brightness(0) invert(1);
+  margin-top: 100px;
+  width: 400px;
+  height: 100px;
+}

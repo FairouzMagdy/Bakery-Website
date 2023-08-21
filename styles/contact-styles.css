@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo-contact {
+  width: 220px;
+  position: absolute;
+  top: 30px;
+  left: 190px;
+}
+
+.nav-list {
+  position: absolute;
+  top: 30px;
+  right: 200px;
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+  color: #686868;
+}
+ul {
+  list-style-type: none;
+}
+.nav-item {
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #686868;
+}
+
+.nav-list a:hover {
+  color: black;
+}
+.bg {
+  margin-top: 115px;
+}
+
+.contact {
+  position: relative;
+  text-align: center;
+  margin-top: -180px;
+}
+
+.contact h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.contact-links {
+  margin: 40px;
+}
+
+.contact-links a {
+  color: wheat;
+}
+
+.contact-links a:hover {
+  color: rgb(130, 60, 10);
+}
+
+.icon-item {
+  /* margin: 20px; */
+  color: #686868;
+}
+
+.icon-text {
+  font-size: 20px;
+}
+#contact-info {
+  padding: 120px 170px;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  height: 800px;
+}
+
+#contact-info h1 {
+  color: #303030;
+  font-family: "Alegreya";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.38em;
+}
+
+.icon-contact {
+  background-color: #8e7754;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid rgb(163, 157, 157);
+  font-size: 25px;
+  text-align: center;
+  padding: 6px;
+  margin: 10px;
+}
+
+.contact-form {
+  width: 75%;
+}
+form h1 {
+  font-size: 200px;
+}
+
+.info {
+  width: 33.33%;
+  margin-top: 35px;
+}
+.info p {
+  color: #686868;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(37, 34, 34);
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: first baseline;
+  /* background-color: aqua; */
+}
+
+.form-element {
+  width: 50%;
+  color: #686868;
+}
+
+input {
+  width: 470px;
+  line-height: 3.5rem;
+  margin: 30px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+textarea {
+  margin-left: 28px;
+  height: 300px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+textarea::placeholder {
+  padding-left: 10px;
+}
+
+.contact-form h1 {
+  margin: 40px;
+}
+.full {
+  width: 1010px;
+}
+
+.btn {
+  margin-left: 28px;
+  margin-top: 15px;
+  position: relative;
+  bottom: 135px;
+}
+
+.side {
+  position: relative;
+  left: 270px;
+  bottom: 70px;
+}
+
+.up {
+  position: relative;
+  bottom: 165px;
+}
+
+.up2 {
+  position: relative;
+  bottom: 165px;
+}
